@@ -160,7 +160,7 @@ func main() {
 	cmd := exec.Command(cmdToRun, paramToCmd)
 	output, err:= cmd.Output()
 
-    if !strings.Contains(err.Error(), "executable file not found") {
+    if err != nil && !strings.Contains(err.Error(), "executable file not found") {
         tldrExists()
     }
 

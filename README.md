@@ -42,9 +42,9 @@ tldr-ai <command>
 tldr-ai ls
 ```
 
-- Get a description for foo (not in tldr database):
+- Get a description for paramspider(not in tldr database):
 ```sh
-tldr-ai foo
+tldr-ai paramspider
 ```
 
 ## Configuration
